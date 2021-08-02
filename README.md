@@ -1,6 +1,6 @@
 # Heart-Diseases
 
---Introduction
+## Introduction
 
 Cardio and vascular diseases are among the leading causes of mortality in the world. 
 Although most people know that the heart must be properly cared for, heart diseases had risen steadily over the last century and has become the leading cause of death for people in the United States.
