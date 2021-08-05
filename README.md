@@ -18,33 +18,33 @@ The following are the parameters depicted in the dataset. In order to find out t
 age: age in years<br/>
 sex: sex (1 = male; 0 = female) <br/>
 cp<br/>
-Value 1: typical angina
-Value 2: atypical angina
-Value 3: non-anginal pain
-Value 4: asymptomatic
-considering 1,2,4 as danger, 3 is normal
-trestbps: resting blood pressure (in mm Hg on admission to the hospital)
->120 abnormal 
-chol
- >200 abnormal
-Fbs: (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
-restecg: resting electrocardiographic results
-Value 0: normal
-Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
-Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria 
-Thalach: maximum heart rate achieved
->100 abnormal
-Exang: exercise induced angina (1 = yes; 0 = no)
-oldpeak = ST depression induced by exercise relative to rest
-slope: the slope of the peak exercise ST segment
--- Value 1: upsloping
--- Value 2: flat
--- Value 3: downsloping 
-Ca: number of major vessels (0-3) colored by fluoroscopy
-thal: 3 = normal; 6 = fixed defect; 7 = reversible defect
-Target Variable: diagnosis of heart disease (angiographic disease status)
--- Value 0: < 50% diameter narrowing
--- Value 1: > 50% diameter narrowing 
+Value 1: typical angina<br/>
+Value 2: atypical angina<br/>
+Value 3: non-anginal pain<br/>
+Value 4: asymptomatic<br/>
+considering 1,2,4 as danger, 3 is normal<br/>
+trestbps: resting blood pressure (in mm Hg on admission to the hospital)<br/>
+>120 abnormal <br/>
+chol<br/>
+ >200 abnormal<br/>
+Fbs: (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)<br/>
+restecg: resting electrocardiographic results<br/>
+Value 0: normal<br/>
+Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)<br/>
+Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria <br/>
+Thalach: maximum heart rate achieved<br/>
+>100 abnormal<br/>
+Exang: exercise induced angina (1 = yes; 0 = no)<br/>
+oldpeak = ST depression induced by exercise relative to rest<br/>
+slope: the slope of the peak exercise ST segment<br/>
+-- Value 1: upsloping<br/>
+-- Value 2: flat<br/>
+-- Value 3: downsloping <br/>
+Ca: number of major vessels (0-3) colored by fluoroscopy<br/>
+thal: 3 = normal; 6 = fixed defect; 7 = reversible defect<br/>
+Target Variable: diagnosis of heart disease (angiographic disease status)<br/>
+-- Value 0: < 50% diameter narrowing<br/>
+-- Value 1: > 50% diameter narrowing <br/>
  
  
  ## Hypothesis / Research Question(s)
