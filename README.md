@@ -8,13 +8,6 @@ Although most people know that the heart must be properly cared for, heart disea
 It is predicted that the number of annual deaths will rise to 25 million people by 2030. Medical diagnosis is an important yet complicated task that needs to be executed accurately and efficiently. 
 Heart disease classification systems can help detect anomalies in the patient’s readings and warn the doctors. Association rule mining and classification are two major techniques of data mining.
 
-What is Association rule mining?
-
-Association rule mining is an unsupervised learning method for discovering interesting patterns and their association in large data bases. 
-Whereas classification is a supervised learning method used to find class label for unknown sample.
-A lot of focus is been devoted towards classification of the heart condition but a very little research is been done towards identifying the risk factors of individual patients and finding the association between the parameters. 
-This research is aimed as improving the classification accuracy while analyzing the associated risk factors.
-
 ## Data Set
 The heart disease data sets considered in the study are obtained from a UCI machine learning benchmark repository and IEEE database.
 https://archive.ics.uci.edu/ml/datasets/heart+disease
@@ -65,31 +58,14 @@ Target Variable: diagnosis of heart disease (angiographic disease status)
 
 ### Classifiers under study:
 Random Forest: Random forest is a flexible, easy to use machine learning algorithm that produces, even without hyper-parameter tuning, a great result most of the time. It is also one of the most used algorithms, because of its simplicity and diversity (it can be used for both classification and regression tasks). In this post we'll learn how the random forest algorithm works, how it differs from other algorithms and how to use it.
-The Random Forest algorithm: First, Random Forest algorithm is a supervised classification algorithm. We can see it from its name, which is to create a forest by some way and make it random. There is a direct relationship between the number of trees in the forest and the results it can get: the larger the number of trees, the more accurate the result. But one thing to note is that creating the forest is not the same as constructing the decision with information gain or gain index approach.
 
 Decision Tree Algorithm:
 Decision Tree algorithm belongs to the family of supervised learning algorithms. Unlike other supervised learning algorithms, the decision tree algorithm can be used for solving regression and classification problems too.
 The goal of using a Decision Tree is to create a training model that can use to predict the class or value of the target variable by learning simple decision rules inferred from prior data (training data).
-In Decision Trees, for predicting a class label for a record we start from the root of the tree. We compare the values of the root attribute with the record’s attribute. On the basis of comparison, we follow the branch corresponding to that value and jump to the next node.
-Terminology related to Decision Trees
-Root Node: It represents the entire population or sample and this further gets divided into two or more homogeneous sets.
-Splitting: It is a process of dividing a node into two or more sub-nodes.
-Decision Node: When a sub-node splits into further sub-nodes, then it is called the decision node.
-Leaf / Terminal Node: Nodes do not split is called Leaf or Terminal node.
-Pruning: When we remove sub-nodes of a decision node, this process is called pruning. It can say the opposite process of splitting.
-Branch / Sub-Tree: A subsection of the entire tree is called branch or sub-tree.
-Parent and Child Node: A node, which is divided into sub-nodes is called a parent node of sub-nodes whereas sub-nodes are the child of a parent node.
 
 Logistic regression: Logistic regression is one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is used for predicting the categorical dependent variable using a given set of independent variables.
 
-Logistic regression predicts the output of a categorical dependent variable. Therefore, the outcome must be a categorical or discrete value. It can be either Yes or No, 0 or 1, true or False, etc. but instead of giving the exact value as 0 and 1, it gives the probabilistic values which lie between 0 and 1.
-
-Logistic Regression is much similar to the Linear Regression except that how they are used. Linear Regression is used for solving Regression problems, whereas Logistic regression is used for solving the classification problems.
-
 SVM: A support vector machine is a very important and versatile machine learning algorithm, it is capable of doing linear and nonlinear classification, regression and outlier detection. Support vector machines also known as SVM is another algorithm widely used by machine learning people for both classification as well as regression problems but is widely used for classification tasks. It is preferred over other classification algorithms because it uses less computation and gives notable accuracy. It is good because it gives reliable results even if there is less data. 
-A support vector machine is a machine learning model that is able to generalize between two different classes if the set of labelled data is provided in the training set to the algorithm. The main function of the SVM is to check for that hyperplane that is able to distinguish between the two classes.
-There can be many hyperplanes that can do this task but the objective is to find that hyperplane that has the highest margin that means maximum distances between the two classes, so that in future if a new data point comes that is two be classified then it can be classified easily. 
-
 
 ## Data Cleansing: 
 Data cleansing is the process of identifying and resolving corrupt, inaccurate, or irrelevant data. This critical stage of data processing — also referred to as data scrubbing or data cleaning — boosts the consistency, reliability, and value of your company’s data.
