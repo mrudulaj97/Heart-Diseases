@@ -24,16 +24,16 @@ Value 3: non-anginal pain<br/>
 Value 4: asymptomatic<br/>
 considering 1,2,4 as danger, 3 is normal<br/>
 trestbps: resting blood pressure (in mm Hg on admission to the hospital)<br/>
->120 abnormal <br/>
+ greater than 120 abnormal <br/>
 chol<br/>
- >200 abnormal<br/>
+  greater than200 abnormal<br/>
 Fbs: (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)<br/>
 restecg: resting electrocardiographic results<br/>
 Value 0: normal<br/>
 Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)<br/>
 Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria <br/>
 Thalach: maximum heart rate achieved<br/>
->100 abnormal<br/>
+greater than 100 abnormal<br/>
 Exang: exercise induced angina (1 = yes; 0 = no)<br/>
 oldpeak = ST depression induced by exercise relative to rest<br/>
 slope: the slope of the peak exercise ST segment<br/>
