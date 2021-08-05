@@ -15,9 +15,9 @@ https://ieee-dataport.org/open-access/heart-disease-dataset-comprehensive
  
 ### About the attributes:
 The following are the parameters depicted in the dataset. In order to find out the role of each parameter in causing heart attack, we first identify the parameters which are abnormal. Then, the classification accuracy of each individual parameter is calculated. More the accuracy, more the role of the parameter in causing the heart attack. Then the rules of association are applied on the data to find out the combination of parameters which are linked with one another and thereby a find a combination of features that are more responsible for causing heat attacks.
---age: age in years
---sex: sex (1 = male; 0 = female) 
-cp
+age: age in years<br/>
+sex: sex (1 = male; 0 = female) <br/>
+cp<br/>
 Value 1: typical angina
 Value 2: atypical angina
 Value 3: non-anginal pain
