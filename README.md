@@ -8,6 +8,9 @@ Although most people know that the heart must be properly cared for, heart disea
 It is predicted that the number of annual deaths will rise to 25 million people by 2030. Medical diagnosis is an important yet complicated task that needs to be executed accurately and efficiently. 
 Heart disease classification systems can help detect anomalies in the patient’s readings and warn the doctors. Association rule mining and classification are two major techniques of data mining.
 
+### What is Association rule mining?
+Association rule mining is an unsupervised learning method for discovering interesting patterns and their association in large data bases. Whereas classification is a supervised learning method used to find class label for unknown sample. A lot of focus is been devoted towards classification of the heart condition but a very little research is been done towards identifying the risk factors of individual patients and finding the association between the parameters. This research is aimed as improving the classification accuracy while analyzing the associated risk factors.
+
 ## Data Set
 The heart disease data sets considered in the study are obtained from a UCI machine learning benchmark repository and IEEE database.
 https://archive.ics.uci.edu/ml/datasets/heart+disease
@@ -77,6 +80,26 @@ Data preparation is the process of cleaning and converting raw data before proce
 checked for missing values and found there are none for the selected dataset. And the dataset is labelled with no any empty or null entries.
 As all the records were combined into a single a column separated by comma, I had to use delimiter to divide the values of the 13 attributes.
 Check for spacings or errors in the values that contains decimals.
+
+## Building Machine Learning Models:
+I have used four machine learning algorithms for my analysis.<br/> 
+The Models are:<br/>
+1). SVM<br/>
+2). Logistic Regression<br/>
+3). Decision Tree<br/>
+4). Random Forest<br/>
+
+
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_22_0.png)
+
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_27_0.png)
+
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_16_0.png)
+
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_32_0.png)
+
+
+
 
 
 ## References
