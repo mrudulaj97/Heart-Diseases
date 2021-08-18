@@ -83,16 +83,16 @@ Check for spacings or errors in the values that contains decimals.
 
 ## Visualizations or the Insights drawn from the data for further analysis:
 
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_6_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/Figure_1.png)
 The plot shows that the heart conditions increased drastically in the age groups of 55-63. In detail, people between the age 55 to 63 are more prone to heart diseases. People with ages 57, 58, 59 has the highest count of heart disease.
 
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_7_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/Figure_2.png)
 The figure displays that The number of heart conditions in Male are considerably higher than female. As can be seen from the bar graph that Male are much prone to heart diseases or  conditions than the females.
 
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_8_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/Figure_3.png)
 From this bar plot it can be seen that resting blood pressure was recorded abnormally for more number of patients as 120,130,140,150. So to be clear, at these given heart rates, patient's resting blood pressure was abnormal as the chances of getting a heart disease are higher at these resting rates.
 
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_9_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/Figure_4.png)
 From the above plot, it can be seen that More heart conditions occurred in patients with Chol > 230. Which means people with Cholesterol levels greater than 230 has high chances of getting heart diseases when compared to people  with cholesterol levels less than 230.
 
 
