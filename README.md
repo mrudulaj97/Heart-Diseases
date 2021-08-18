@@ -81,6 +81,23 @@ checked for missing values and found there are none for the selected dataset. An
 As all the records were combined into a single a column separated by comma, I had to use delimiter to divide the values of the 13 attributes.
 Check for spacings or errors in the values that contains decimals.
 
+## Visualizations or the Insights drawn from the data for further analysis:
+
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_6_0.png)
+The plot shows that the heart conditions increased drastically in the age groups of 55-63. In detail, people between the age 55 to 63 are more prone to heart diseases. People with ages 57, 58, 59 has the highest count of heart disease.
+
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_7_0.png)
+The figure displays that The number of heart conditions in Male are considerably higher than female. As can be seen from the bar graph that Male are much prone to heart diseases or  conditions than the females.
+
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_8_0.png)
+From this bar plot it can be seen that resting blood pressure was recorded abnormally for more number of patients as 120,130,140,150. So to be clear, at these given heart rates, patient's resting blood pressure was abnormal as the chances of getting a heart disease are higher at these resting rates.
+
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_9_0.png)
+From the above plot, it can be seen that More heart conditions occurred in patients with Chol > 230. Which means people with Cholesterol levels greater than 230 has high chances of getting heart diseases when compared to people  with cholesterol levels less than 230.
+
+
+
+
 ## Building Machine Learning Models:
 I have used four machine learning algorithms for my analysis.<br/> 
 The Models are:<br/>
@@ -92,11 +109,55 @@ The Models are:<br/>
 
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_22_0.png)
 
+The figure shows the confusion matrix for the support vector machine model. A total of 61 data samples have been given for testing. Out of which 49 samples have been correctly identified. The values of TP, TN, FP, FN are 32, 17, 3 and 9 respectively. The overall accuracy obtained is 80.32.
+
+
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_27_0.png)
+
+The figure shows the confusion matrix for the Logistic Regression model. A total of 61 data samples have been given for testing. Out of which 49 samples have been correctly identified. The values of TP, TN, FP, FN are 32, 17, 3 and 9 respectively. The overall accuracy obtained is 80.32.
+
 
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_16_0.png)
 
+The figure shows the confusion matrix for the Decision Tree model. A total of 61 data samples have been given for testing. Out of which 49 samples have been correctly identified. The values of TP, TN, FP, FN are 29, 18, 6 and 8 respectively. The overall accuracy obtained is 80.32.
+
+
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_32_0.png)
+
+The figure shows the confusion matrix for the Random Forest model. A total of 61 data samples have been given for testing. Out of which 49 samples have been correctly identified. The values of TP, TN, FP, FN are 28, 17, 7 and 9 respectively. The overall accuracy obtained is 75.40.
+
+### The Further analysis for this will be Association rule mining.
+
+#### Association Rule Mining:
+Association rule mining is a procedure which is meant to find frequent patterns, correlations, associations, or causal structures from data sets found in various kinds of databases such as relational databases, transactional databases, and other forms of data repositories.  And also Association Rule Mining is a Data Mining technique that finds patterns in data. The patterns found by Association Rule Mining represent relationships between items.
+
+In My analysis, Association rules can be applied to extract the relationship in the data attributes. Here the parameters responsible for heart attack are studied in detail. The risk factor analysis on the attributed can be performed with support and confidence values. Support describes the probability that both the body and the head of the rule are in of a transaction as measured by all transactions. The confidence of a rule is defined as the proportion of transactions that Rule body and rule header contain the number of transactions that meet the rulebook. The experimental results show that the thalach is the parameter with highest association will other parameters in the abnormal range. The second and third highest parameters are found out as CP, Chol respectively.
+
+
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_39_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_40_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_42_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_43_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_45_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_46_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_48_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_49_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_51_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_52_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_54_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_55_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_57_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_58_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_60_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_61_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_63_0.png)
+![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_64_0.png)
+
+
+
+
+
+
 
 
 
