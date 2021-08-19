@@ -133,25 +133,24 @@ Association rule mining is a procedure which is meant to find frequent patterns,
 
 In My analysis, Association rules can be applied to extract the relationship in the data attributes. Here the parameters responsible for heart attack are studied in detail. The risk factor analysis on the attributed can be performed with support and confidence values. Support describes the probability that both the body and the head of the rule are in of a transaction as measured by all transactions. The confidence of a rule is defined as the proportion of transactions that Rule body and rule header contain the number of transactions that meet the rulebook. The experimental results show that the thalach is the parameter with highest association will other parameters in the abnormal range. The second and third highest parameters are found out as CP, Chol respectively.
 
+These are the outputs when Association Rule Mining is applied to all the parameters used in the analysis. Here rule mining is applied to each parameter with all other parameters and the results can be observed below.
 
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_39_0.png)
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_40_0.png)
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_42_0.png)
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_43_0.png)
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_45_0.png)
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_46_0.png)
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_48_0.png)
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_49_0.png)
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_51_0.png)
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_52_0.png)
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_54_0.png)
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_55_0.png)
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_57_0.png)
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_58_0.png)
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_60_0.png)
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_61_0.png)
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_63_0.png)
-![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_64_0.png)
+
+In the first figure, we can observe the abnormal association between cp and other parameters. The graph depicts the confidence value associated with the abnormal values of the cp with other parameters testbps, chol, fbs, resecg, thalach, exang, ca and thal. The highest association is found with thalach, chol and testbps in order. The least association is found with fbs. For patients with abnormal cp, the other parameters thalach, chol and testbps are also most abnormal. The patients with abnormal ca, thalach, testbps and chol have a very high risk of getting heart attack. Just like this, we can look at the abnormal association between all the parameters(each one), when compared with the all other parameters combined.
+
+## conclusion
+
+
+
 
 
 
