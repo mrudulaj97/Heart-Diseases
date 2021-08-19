@@ -136,52 +136,73 @@ In My analysis, Association rules can be applied to extract the relationship in 
 These are the outputs when Association Rule Mining is applied to all the parameters used in the analysis. Here rule mining is applied to each parameter with all other parameters and the results can be observed below.
 
 ### Abnormal Association between cp and other parameters:
+Support
 
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_39_0.png)
+
+Confidence
+
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_40_0.png)
 
 ### Abnormal Association between trestbps and other parameters:
-
+Support
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_42_0.png)
+Confidence
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_43_0.png)
 
 ### Abnormal Association between Chol and other parameters:
-
+Support
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_45_0.png)
+Confidence
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_46_0.png)
 
 ### Abnormal Association between fbs and other parameters:
-
+Support
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_48_0.png)
+Confidence
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_49_0.png)
 
 ### Abnormal Association between restecg and other parameters:
-
+Support
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_51_0.png)
+Confidence
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_52_0.png)
 
 ### Abnormal Association between thalach and other parameters:
-
+Support
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_54_0.png)
+Confidence
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_55_0.png)
 
 ### Abnormal Association between exang and other parameters:
-
+Support
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_57_0.png)
+Confidence
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_58_0.png)
 
 ### Abnormal Association between ca and other parameters:
-
+Support
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_60_0.png)
+Confidence
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_61_0.png)
 
 ### Abnormal Association between thal and other parameters:
-
+Support
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_63_0.png)
+Confidence
 ![alt text](https://github.com/mrudulaj97/Heart-Diseases/blob/main/Association%20rule%20ops/output_64_0.png)
 
-
+#### Here in the Association rule mining 
 In the first figure, we can observe the abnormal association between cp and other parameters. The graph depicts the confidence value associated with the abnormal values of the cp with other parameters testbps, chol, fbs, resecg, thalach, exang, ca and thal. The highest association is found with thalach, chol and testbps in order. The least association is found with fbs. For patients with abnormal cp, the other parameters thalach, chol and testbps are also most abnormal. The patients with abnormal ca, thalach, testbps and chol have a very high risk of getting heart attack. Just like this, we can look at the abnormal association between all the parameters(each one), when compared with the all other parameters combined.
+
+Support: It denotes the frequency of the rule within transactions. In this case, the support value indicates how frequently a parameter is becoming abnormal in heart disease patients. A high value means that the rule involves a great part of the database.
+
+Confidence: It denotes the percentage of transactions containing A which contain also B. 
+In this case, the confidence states how two parameters are linked with one another abnormally in causing a heart attack.
+It is an estimation of conditioned probability.
+
+
+
 
 ## Conclusion
 
