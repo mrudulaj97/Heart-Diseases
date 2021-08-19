@@ -147,7 +147,9 @@ These are the outputs when Association Rule Mining is applied to all the paramet
 
 In the first figure, we can observe the abnormal association between cp and other parameters. The graph depicts the confidence value associated with the abnormal values of the cp with other parameters testbps, chol, fbs, resecg, thalach, exang, ca and thal. The highest association is found with thalach, chol and testbps in order. The least association is found with fbs. For patients with abnormal cp, the other parameters thalach, chol and testbps are also most abnormal. The patients with abnormal ca, thalach, testbps and chol have a very high risk of getting heart attack. Just like this, we can look at the abnormal association between all the parameters(each one), when compared with the all other parameters combined.
 
-## conclusion
+## Conclusion
+
+Heart disease prediction is a challenging task that is under research from many decades. There are several factors that cause heart attacks in patients, so these factors can be used to analyse and predict if a patient is having a risk of getting heart attack. Also the Machine learning models that were built will help predict if a patient is going to have a heart attack. The association analysis helps identify the most prominent risk factor in the patients that can cause heart attack. The analysis of the association can help doctors personalize the treatment based on the patient condition.
 
 
 
