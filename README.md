@@ -210,17 +210,6 @@ Heart disease prediction is a challenging task that is under research from many 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## References
 https://archive.ics.uci.edu/ml/datasets/heart+disease </br>
 https://ieee-dataport.org/open-access/heart-disease-dataset-comprehensive </br>
